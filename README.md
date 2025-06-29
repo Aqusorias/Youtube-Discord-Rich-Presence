@@ -3,7 +3,7 @@
 A native messaging bridge and extension integration that displays your current YouTube video activity as Discord Rich Presence — including video title, channel name, and playback status — directly in your Discord profile.
 
 
-| ![Image 1](example1.png) | ![Image 2](example1.png) |
+| ![Image 1](example1.png) | ![Image 2](example2.png) |
 |:---------------------:|:---------------------|
 
 
