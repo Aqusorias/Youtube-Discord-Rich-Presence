@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "YouTube Discord Rich Presence",
+    "version": "1.1",
+    "description": "Discord Rich Presence for Youtube",
+    "permissions": ["activeTab", "nativeMessaging"],
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "youtube_discord_rich_presence@ytdrpc.org",
+            "strict_min_version": "58.0"
+        }
+    },
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://*.youtube.com/*"],
+            "js": ["content.js"]
+        }
+    ],
+    "browser_action": {
+        "default_title": "YouTube Discord Rich Presence",
+        "default_icon": "icon.png"
+    }
+}

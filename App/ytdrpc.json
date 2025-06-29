@@ -1,0 +1,7 @@
+{
+    "name": "youtube_discord_rich_presence",
+    "description": "Discord Rich Presence for Youtube - native Messaging",
+    "path": "C:\\Users\\Aqusorias\\Desktop\\Developement\\FirefoxExtensions\\DiscordRichPresence\\App\\ytdrpc.bat",
+    "type": "stdio",
+    "allowed_extensions": ["youtube_discord_rich_presence@ytdrpc.org"]
+}
