@@ -21,7 +21,6 @@ A native messaging bridge and extension integration that displays your current Y
 
 ## Installation
 
-> **_NOTE:_**   currently takes manual installation with batch files & isn't on the Firefox ADD-ONS Browser
 1. **Clone the repository**
    ```bash
    git clone https://github.com/Aqusorias/Youtube-Discord-Rich-Presence.git
@@ -36,9 +35,5 @@ A native messaging bridge and extension integration that displays your current Y
     - Install necessary dependencies.
     - Create the required Windows registry key for native messaging.
     - Generate the native messaging manifest file.
-3. **Add Extension to Firefox**
-This step will later be removed with the addition to the ADD-ONS Browser, but for now:
-- Go to `about:debugging#/runtime/this-firefox` in Firefox
-- Press on `Load Temporary Add-on...`
-- Select the `manifest.json` in ./Extension/
-You have to do this each time you re-open Firefox with a temporary Extension.
+3. **Install the Extension from Firefox Add-ons**
+Visit the offical extension page and install it directly: https://addons.mozilla.org/en-US/firefox/addon/youtube-discord-rich-presence/
