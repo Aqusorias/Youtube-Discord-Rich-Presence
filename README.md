@@ -37,6 +37,7 @@ Visit the offical extension page and install it directly: https://addons.mozilla
 
 ## 🛑 Known Issues
 
+- Currently, if you have videos in your Notifications, it will show the number of notifications in the title in the Rich Presence.
 - Sometimes on Video playback, it shows the wrong Channelname. This should fix itself on the next Video playback.
 - It behaves weirdly if you have multiple Tabs running with different Videos. It should show the title and channel of the latest opened tab and playtime.
     - If you then stop any other Youtube tab, by closing it in any way, it will stop the RPC. This will fix itself on Video change or Window Reload.
