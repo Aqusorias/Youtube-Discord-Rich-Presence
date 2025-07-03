@@ -27,22 +27,12 @@ When paused, it will display the amount of time the video has been paused, start
 
 ## Installation
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/Aqusorias/Youtube-Discord-Rich-Presence.git
-   cd Youtube-Discord-Rich-Presence
-   ```
-2. **Run the setup script (Windows only)**
-    ```bash
-    setup.bat
-    ```
-    This will:
-    - Check for Node.js and npm.
-    - Install necessary dependencies.
-    - Create the required Windows registry key for native messaging.
-    - Generate the native messaging manifest file.
-3. **Install the Extension from Firefox Add-ons**
+1. **Download the latest `.exe` from Github Releases**
+   Download and run the "YoutubeDiscordRPC_Setup" from the [Releases](https://github.com/Aqusorias/Youtube-Discord-Rich-Presence/releases) section.
+2. **Install the Extension from Firefox Add-ons**
 Visit the offical extension page and install it directly: https://addons.mozilla.org/en-US/firefox/addon/youtube-discord-rich-presence/
+
+> NOTE: If you had the extension installed before the app, you may need to restart your browser for it to work.
 
 
 ## 🛑 Known Issues
