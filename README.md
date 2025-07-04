@@ -38,11 +38,12 @@ Visit the offical extension page and install it directly: https://addons.mozilla
 ## 🛑 Known Issues
 
 - Currently, if you have videos in your Notifications, it will show the number of notifications in the title in the Rich Presence.
-- Sometimes on Video playback, it shows the wrong Channelname. This should fix itself on the next Video playback.
+- Sometimes on Video playback, it shows the wrong Channelname. This should fix itself on the next Video playback or on video refresh.
 - It behaves weirdly if you have multiple Tabs running with different Videos. It should show the title and channel of the latest opened tab and playtime.
     - If you then stop any other Youtube tab, by closing it in any way, it will stop the RPC. This will fix itself on Video change or Window Reload.
     - Pausing and Resuming any other Youtube tab, it will break the timestamp. The times won't allign, and it always shows the title and channel of the newest created Video. This will fix itself on Video Change or Window Reload.
 - It very rarely just completely shows the wrong video title and channel. This should fix itself on the next Video playback / Video refresh.
+- If you pause before fully loading the video, it sometimes shows the Video as playing. This should fix itself on the next Video playback / Video refresh.
 
 If you find any other Problems, feel free to open a Issue.
 
